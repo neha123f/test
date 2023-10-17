@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with: 
-          repository: org/parent_repository
+          repository: neha123f/module
           token: ${{ secrets.CI_TOKEN }}
           submodules: true
 
